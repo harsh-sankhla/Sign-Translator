@@ -1,0 +1,21 @@
+/* CSS */
+.container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    margin: 20px auto;
+  }
+  
+  #video, #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(-1); /* Mirror video feed */
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
+  }
